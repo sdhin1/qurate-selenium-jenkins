@@ -55,6 +55,10 @@
 						<suiteXmlFile>src/test/resources/testng_runners/book-flight-module.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					
+					<systemPropertyVariables>
+                    	<BROWSER>${Browser}</BROWSER>
+                	</systemPropertyVariables>
+					
 				</configuration>
 				
 			</plugin>
